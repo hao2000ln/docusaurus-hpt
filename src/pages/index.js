@@ -9,6 +9,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -17,16 +18,16 @@ function HomepageHeader() {
         <h1 className="hero__title">Bộ giải pháp CSEP</h1>
         <p className="hero__subtitle">GIẢI PHÁP QUẢN LÝ TÀI SẢN TẬP TRUNG</p>
         <div className={styles.buttons}>
-          {/* <Link
+          <Link
             className="button button--secondary button--lg"
-            to="https://demoqlts.hpt.vn/sm/index.do">
+            to="http://10.4.18.42:8083/sm/index.do">
             Phần mềm QLTS &#36;
-          </Link> */}
-          <a
+          </Link>
+          {/* <a
             className="button button--secondary button--lg"
             href="/HPT-SCEP.pdf"
             download="HPT-SCEP.pdf"
-          >Tải xuống tài liệu docx 🡇</a>
+          >Tải xuống tài liệu docx 🡇</a> */}
         </div>
       </div>
     </header>
