@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="http://10.4.18.42:8083/sm/index.do">
+            to="https://demoqlts.hpt.vn/sm/index.do">
             Phần mềm QLTS &#36;
           </Link>
           {/* <a
